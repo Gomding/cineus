@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.vipzone{
+	width : 1000px;
+	height:  400px;
+}
+
+.w1{
+	width : 800px;
+	height : 300px;
+}
+
+#tab1 {
+	margin: 50px 100px 20px 0px;
+	padding: 40px 30px;
+	border : 1px solid #1f0da8;
+	float: left;
+	background-color: white;
+	color: #1f0da8;
+}
+
+#tab1 > a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+#tab2 {
+	margin: 50px 0px 20px 100px;
+	padding: 40px 30px;
+	border: 1px solid #1f0da8;
+	float: left;
+	background-color: #1f0da8;
+	color: white;
+	border : 1px solid #1f0da8;
+	
+}
+
+#tab2 > a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+
+.vipzone {
+	margin: 0px 0px 500px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+
+.header-btn-wrap{
+	width: 1100px;
+	height: 61px;
+	position: relative;
+	margin-top:60px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom: 25px;
+	z-index: 20;
+	
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+	    box-sizing: border-box;
+	font-family: 'NanumGothic','나눔고딕','맑은 고딕','Malgun Gothic','돋움',dotum,'Apple SD Gothic Neo',sans-serif;
+}
+.header-btn-wrap a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+.header-btn-wrap button{
+	margin: 0;
+}
+.header-btn-wrap div {
+    display: block;
+}
+
+.header-btn-wrap .btn_menu_all {
+    margin-top: 24px;
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.6);
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    width: 82px;
+    height: 30px;
+    letter-spacing: -0.5px;
+}
+.header-btn-wrap .btn_social {
+    position: absolute;
+    top: 28px;
+    left: 102px;
+}
+
+.header-btn-wrap .btn_social a.film_society, .header-btn-wrap .btn_social a.classic_society, .header-btn-wrap .btn_theater .membership_txt{
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    line-height: 13px;
+}
+.header-btn-wrap .btn_social a {
+    height: 13px;
+}
+
+.header-btn-wrap .split {
+    margin: 0 12px;
+    border-right: 1px solid #fff;
+    height: 13px;
+    vertical-align: middle;
+}
+
+.header-btn-wrap i {
+    display: inline-block;
+    zoom: 1;
+}
+
+.header-btn-wrap .btn_theater {
+    position: absolute;
+    top: 21px;
+    right: 0;
+}
+.header-btn-wrap .btn_theater .membership_link {
+    float: left;
+    margin: 12px 24px;
+}
+.btn_theater button.btn_time.transparent {
+    background-position: -300px -100px;
+}
+.btn_theater button.btn_time {
+    background-position: 0 -100px;
+    /* margin-right: 10px; */
+}
+.img_btn.header {
+    background-image: url(http://image2.megabox.co.kr/mop/home/btns/btn_header.png);
+}
+.btn_theater button {
+    float: left;
+    height: 39px;
+    width: 113px;
+    background-position: 0 0;
+}
+.img_btn {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    border: none;
+    background-repeat: no-repeat;
+    background: transparent;
+    vertical-align: middle;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    line-height: normal;
+}
+.btn_theater button.btn_reservation {
+    background-position: -150px -100px;
+    padding-right: 19px;
+}
+
+.img_btn.header {
+    background-image: url(http://image2.megabox.co.kr/mop/home/btns/btn_header.png);
+}
+.btn_theater button {
+    float: left;
+    height: 39px;
+    width: 113px;
+    background-position: 0 0;
+}
+
+.tmain_container {
+    position: static !important;
+    margin-top: -85px !important;
+}
+
+.btn_menu_all a{
+  color: white;
+  /* border:red 1px solid; */
+  display:block;
+  line-height:35px;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-top:-4px;
+}
+.btn_menu_all a:link {
+  color: white;
+}
+
+/* visited link */
+.btn_menu_all a:visited {
+  color: white;
+}
+
+/* mouse over link */
+.btn_menu_all a:hover {
+  color: white;
+}
+
+/* selected link */
+.btn_menu_all a:active {
+  color: white;
+}

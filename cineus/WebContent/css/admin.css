@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+
+.sidenav {
+  width: 170px;
+  height:100%;
+  border-right: 1px solid #999;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  left: 0px;
+/*   background: #eee; */
+  overflow-x: hidden;
+  padding: 0px 0;
+}
+.sidenav hr{
+	border-color : black;
+	margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+/*   color: #2196F3; */
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #999;
+}
+
+.main {
+  margin-left: 0px; 
+  font-size: 16x; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+select option:disabled {
+    color: #efefef;
+}
+
+select:disabled{
+	background-color: #ececec;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
